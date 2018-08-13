@@ -1,6 +1,6 @@
 # Html 转成 Word 的小工具
 
-README: [English](README_en.md) | [中文](README_zh.md)
+README: [English](README_en.md) | [中文](README.md)
 
 使用 `koa` 写了一个小网站，上传 `word` 文档即可将 `word` 转成 `html`，并且有可编辑 `html`。编辑好了之后只需要点击上传就能将 `html` 生成访问链接
 

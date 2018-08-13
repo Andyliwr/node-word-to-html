@@ -1,6 +1,6 @@
 # Html Turning into a Word gadget
 
-README: [English](README_en.md) | [Chinese](README_zh.md)
+README: [English](README_en.md) | [Chinese](README.md)
 
 Use `koa` to write a small website, upload the `word` document to convert `word` to `html`, and editable `html`. After editing, you only need to click upload to generate `html` access link.
 
