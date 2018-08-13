@@ -22,8 +22,6 @@ README: [English](README_en.md) | [中文](README.md)
 git clone https://github.com/Andyliwr/node-word-to-html.git
 ```
 
-- 在页面中引入`dist/navigator.min.css`和`dist/navigator.min.js`
-
 请注意在引入`zepto`之后引入`dist/navigator.min.js`
 
 - 安装依赖并启动项目

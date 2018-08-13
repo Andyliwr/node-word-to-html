@@ -22,10 +22,6 @@ Use `koa` to write a small website, upload the `word` document to convert `word`
 Git clone https://github.com/Andyliwr/node-word-to-html.git
 ```
 
-- Introduce `dist/navigator.min.css` and `dist/navigator.min.js` on the page.
-
-Please note that `dist/navigator.min.js` is introduced after the introduction of `zepto`.
-
 - Install dependencies and launch projects
 
 ```
