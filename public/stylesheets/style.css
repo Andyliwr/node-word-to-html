@@ -1,0 +1,14 @@
+body {
+  padding: 20px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.form-group {
+  padding: 6px 0;
+}
+
+.form-group > span {
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+}

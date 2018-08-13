@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  textarea(id="editor" name="content" style="width:700px")
+  button(id="upload-btn", style="margin: 20px 0; cursor: pointer") 上传并生成第三方连接  
+  p(class="link", style="display: none")
+   a(href="", target="_blank")
+  script(type='text/javascript', src='//cdn.bootcss.com/jquery/3.3.1/jquery.min.js')
+  script(type='text/javascript', src='/javascripts/editor/kindeditor-all-min.js')
+  script(type='text/javascript', src='/javascripts/editor/zh-CN.js')
+  script(type='text/javascript', src='/javascripts/editor.js')
+  

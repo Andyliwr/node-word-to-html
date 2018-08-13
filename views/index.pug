@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div(class='form')
+    div(class='form-group')
+      span 页面标题
+      input(type='text', id='title', name='title')
+    div(class='form-group')
+      span word文档
+      input(type='file', id='file', name='file', accept='application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    div(class='form-group')
+      button(id='submit') 开始转换
+  script(type='text/javascript', src='//cdn.bootcss.com/jquery/3.3.1/jquery.min.js')
+  script(type='text/javascript', src='/javascripts/index.js')
+  
