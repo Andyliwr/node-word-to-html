@@ -8,6 +8,7 @@ $(document).ready(function() {
     }
     var file = new FormData();
     file.append('title', $('#title').val());
+    file.append('htmlName', $('#htmlName').val());
     file.append('file', $('#file').prop('files')[0]);
     console.log('当前文件', $('#file').prop('files')[0]);
     console.log('FormData对象实例', file);
@@ -24,6 +25,7 @@ $(document).ready(function() {
       success: function(data) {
         if (data.code == 0) {
           sessionStorage.setItem('html', data.html);
+          sessionStorage.setItem('htmlName', data.htmlName);
           sessionStorage.setItem('title', data.title);
           window.location.href = '/editor';
         } else {

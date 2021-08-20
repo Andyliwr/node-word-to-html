@@ -1,10 +1,14 @@
 extends layout
 
 block content
+  h2 word转化html（仅支持docx文件）
   div(class='form')
     div(class='form-group')
       span 页面标题
       input(type='text', id='title', name='title')
+    div(class='form-group')
+      span Html文件名
+      input(type='text', id='htmlName', name='htmlName')
     div(class='form-group')
       span word文档
       input(type='file', id='file', name='file', accept='application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document')
