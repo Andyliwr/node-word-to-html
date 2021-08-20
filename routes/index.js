@@ -24,13 +24,14 @@ const client = qn.create({
 
 router.post('/word-to-html', async (ctx, next) => {
   let title = ctx.request.body.title;
+  let htmlName = ctx.request.body.htmlName;
   let path = ctx.request.files.file.path;
   if (path) {
     return new Promise(async (resolve, reject) => {
       mammoth
         .convertToHtml({ path })
         .then(async result => {
-          ctx.body = { code: 0, title: title, html: `<div class="container">${result.value}</div>` };
+          ctx.body = { code: 0, title: title, htmlName: htmlName, html: `<div class="container">${result.value}</div>` };
           resolve(true);
         })
         .done();

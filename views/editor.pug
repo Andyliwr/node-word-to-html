@@ -2,7 +2,8 @@ extends layout
 
 block content
   textarea(id="editor" name="content" style="width:700px")
-  button(id="upload-btn", style="margin: 20px 0; cursor: pointer") 上传并生成第三方连接  
+  button(id="export-btn", style="margin: 20px 0; cursor: pointer; ") 导出到html  
+  button(id="upload-btn", style="margin: 20px 20px; cursor: pointer") 上传并生成第三方连接  
   p(class="link", style="display: none")
    a(href="", target="_blank")
   script(type='text/javascript', src='//cdn.bootcss.com/jquery/3.3.1/jquery.min.js')
